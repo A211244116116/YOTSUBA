@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>首頁</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <section id="hero">
+      <div class="hero-container">
+        <div
+          class="fadein wow"
+          style="visibility: visible;animation-name:fadein"
+        >
+          <div class="logo">
+            <h1><strong>淡江大學</strong></h1>
+          </div>
+          <h2>資訊工程學系</h2>
+          <h2>
+            臺灣第一所私立高等學府
+            <span>鍛鍊成具心靈卓越的淡江人 </span>
+          </h2>
+          <div class="actions  mt-5">
+            <a
+              href="#about"
+              class="btn btn-primary btn-lg active"
+              role="button"
+              aria-pressed="true"
+              >開始旅程</a
+            >
+            <a
+              href="https://www.tku.edu.tw/newstu.asp"
+              class="btn btn-secondary btn-lg active"
+              role="button"
+              aria-pressed="true"
+              >加入我們</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container-full sticky-top ">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black ">
+        <a class="navbar-brand" href="/index.html">資訊工程系介紹</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse align-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://www.tku.edu.tw/"
+                >淡江大學 <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                資訊工程系
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a
+                  class="dropdown-item"
+                  href="http://www.csie.tku.edu.tw/intro/super_pages.php?ID=intro1"
+                  >系所介紹</a
+                >
+                <a class="dropdown-item" href="/_sec.html">系主任</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">未開放</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!----top end-->
+    <section id="about" class="">
+      <div class="container">
+        <h3 class="section-title">ABOUT</h3>
+        <div class="section-title-divider"></div>
+        <p>
+          淡江大學資訊工程系
+        </p>
+        <div class="row ">
+          <div class="col-lg-6 about-img">
+            <img
+              src="https://bootstrapmade.com/demo/themes/Imperial/img/about-img.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 ">
+            <h2 class="about-title">系所介紹與沿革</h2>
+            <p class="about-text">
+              淡江大學資訊工程學系成立於民國58年，以推廣計算機應用教育、培育國家及社會建設之高級資訊人才為目標，進而提升國
+              內資訊工業水準。本系原名『電子計算機科學學系』，是國內最早創立之資訊相關科系；民國59年設立夜間部、67年成立研究所碩士班、78年成立博士班。
+            </p>
+            <p class="about-text">
+              為了符合時代需求，民國81年正式更名為『資訊工程學系』，目前有大學日間部、進學班，研究所碩士班、博士班；為強化教育體系在職進修功能，於90學年成立碩士在職專班；為期培養更精進專業的網路與通訊人才，95學年增設成立『資訊網路與通訊碩士班』(104學年度改名『資訊網路與多媒體碩士班』)；為培育具國際視野的資通訊人才及吸收優秀的國際學生，103學年度增設立『全英語碩士班』。在教學方面，理論與實際並重，課程涵蓋實務及研究性質。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <div class="col-md-12">
+          <h2 class="section-title">OUR SERVICES</h2>
+          <div class="section-title-divider"></div>
+          <p class="section-description">
+            自己google
+          </p>
+        </div>
+        <div class="row align-center">
+          <div class="col-md-4">
+            <h4 class="service-title">LOREM IPSUM</h4>
+            <p class="service-description"></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-title">LOREM IPSUM</h4>
+            <p class="service-description"></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-title">LOREM IPSUM</h4>
+            <p class="service-description"></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-title">LOREM IPSUM</h4>
+            <p class="service-description"></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-title">LOREM IPSUM</h4>
+            <p class="service-description"></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="service-title"></h4>
+            <p class="service-description"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="footer">
+      <div class="container">
+        <div class="col-md-12 ">
+          <h2 class="section-title">CONTACT</h2>
+          <div class="section-title-divider "></div>
+          <p class="section-description">
+            聯絡我們
+          </p>
+        </div>
+        <div class="align-center">
+          <div>
+            <div>聯絡方式</div>
+            <p>電話：(02)26215656，分機2616, 2665　 傳真：(02)26209749</p>
+          </div>
+          <div>
+            <div>地址</div>
+            <p>
+              淡江大學資訊工程學系（25137新北市淡水區英專路151號工學大樓E646）
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="footer">
+      <div class="copyright">
+        © Copyright <strong>Eletrx</strong> All Rights Reserved
+      </div>
+      <div class="credit">disign by Dylan</div>
+    </div>
+    <!-----------------script----------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
